@@ -14,6 +14,55 @@
       "processor": "x86_64",
       "os": "GNU/Linux",
       "modules": {
+        "btrfs": {
+          "size": "1089536",
+          "refcount": "0"
+        },
+        "xor": {
+          "size": "24576",
+          "refcount": "1"
+        },
+        "raid6_pq": {
+          "size": "114688",
+          "refcount": "1"
+        },
+        "ufs": {
+          "size": "73728",
+          "refcount": "0"
+        },
+        "qnx4": {
+          "size": "16384",
+          "refcount": "0"
+        },
+        "hfsplus": {
+          "size": "106496",
+          "refcount": "0"
+        },
+        "hfs": {
+          "size": "57344",
+          "refcount": "0"
+        },
+        "minix": {
+          "size": "36864",
+          "refcount": "0"
+        },
+        "ntfs": {
+          "size": "102400",
+          "refcount": "0",
+          "version": "2.1.32"
+        },
+        "msdos": {
+          "size": "20480",
+          "refcount": "0"
+        },
+        "jfs": {
+          "size": "184320",
+          "refcount": "0"
+        },
+        "xfs": {
+          "size": "1191936",
+          "refcount": "0"
+        },
         "veth": {
           "size": "16384",
           "refcount": "0"
@@ -88,7 +137,7 @@
         },
         "libcrc32c": {
           "size": "16384",
-          "refcount": "1"
+          "refcount": "2"
         },
         "br_netfilter": {
           "size": "24576",
@@ -533,7 +582,7 @@
         },
         "i915": {
           "size": "1449984",
-          "refcount": "207"
+          "refcount": "216"
         },
         "i2c_algo_bit": {
           "size": "16384",
@@ -813,16 +862,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "65529590",
-              "packets": "267709",
+              "bytes": "66413631",
+              "packets": "271918",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "65529590",
-              "packets": "267709",
+              "bytes": "66413631",
+              "packets": "271918",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -849,16 +898,16 @@
           "wlp2s0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "196006843",
-              "packets": "1177973",
+              "bytes": "199973920",
+              "packets": "1206446",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "4335594397",
-              "packets": "3765904",
+              "bytes": "4446275705",
+              "packets": "3867015",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -901,7 +950,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
         "stepping": "9",
-        "mhz": "3124.969",
+        "mhz": "799.871",
         "cache_size": "4096 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -1021,7 +1070,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
         "stepping": "9",
-        "mhz": "3116.119",
+        "mhz": "799.871",
         "cache_size": "4096 KB",
         "physical_id": "0",
         "core_id": "1",
@@ -1141,7 +1190,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
         "stepping": "9",
-        "mhz": "3133.996",
+        "mhz": "799.871",
         "cache_size": "4096 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -1261,7 +1310,7 @@
         "model": "142",
         "model_name": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
         "stepping": "9",
-        "mhz": "3098.596",
+        "mhz": "799.871",
         "cache_size": "4096 KB",
         "physical_id": "0",
         "core_id": "1",
@@ -1404,23 +1453,23 @@
         "surplus": "0"
       },
       "total": "16269360kB",
-      "free": "4484088kB",
-      "buffers": "352240kB",
-      "cached": "4670908kB",
-      "active": "7643176kB",
-      "inactive": "3524792kB",
-      "dirty": "424kB",
+      "free": "3914296kB",
+      "buffers": "392400kB",
+      "cached": "5115776kB",
+      "active": "7892756kB",
+      "inactive": "3753912kB",
+      "dirty": "388kB",
       "writeback": "0kB",
-      "anon_pages": "3874940kB",
-      "mapped": "885092kB",
-      "slab": "462592kB",
-      "slab_reclaimable": "383852kB",
-      "slab_unreclaim": "78740kB",
-      "page_tables": "48868kB",
+      "anon_pages": "3855184kB",
+      "mapped": "897348kB",
+      "slab": "540408kB",
+      "slab_reclaimable": "459304kB",
+      "slab_unreclaim": "81104kB",
+      "page_tables": "49068kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "24751124kB",
-      "committed_as": "10330240kB",
+      "committed_as": "10329388kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -1457,21 +1506,21 @@
         "builddate": "Nov 19 2016, 06:48:10"
       },
       "ruby": {
-        "platform": "x86_64-linux",
-        "version": "2.4.2",
-        "release_date": "2017-09-14",
+        "platform": "x86_64-linux-gnu",
+        "version": "2.3.1",
+        "release_date": "2016-04-26",
         "target": "x86_64-pc-linux-gnu",
         "target_cpu": "x86_64",
         "target_vendor": "pc",
-        "target_os": "linux",
+        "target_os": "linux-gnu",
         "host": "x86_64-pc-linux-gnu",
         "host_cpu": "x86_64",
         "host_os": "linux-gnu",
         "host_vendor": "pc",
-        "bin_dir": "/home/drax/.rbenv/versions/2.4.2/bin",
-        "ruby_bin": "/home/drax/.rbenv/versions/2.4.2/bin/ruby",
-        "gems_dir": "/home/drax/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0",
-        "gem_bin": "/home/drax/.rbenv/versions/2.4.2/bin/gem"
+        "bin_dir": "/usr/bin",
+        "ruby_bin": "/usr/bin/ruby2.3",
+        "gems_dir": "/var/lib/gems/2.3.0",
+        "gem_bin": "/usr/bin/gem2.3"
       },
       "perl": {
         "version": "5.22.1",
@@ -1624,7 +1673,6 @@
       "user-library-arch": "/home/drax/.local/lib/x86_64-linux-gnu",
       "user-shared": "/home/drax/.local/share",
       "user-configuration": "/home/drax/.config",
-      "user-runtime": "/run/user/1000",
       "user-state-cache": "/home/drax/.cache",
       "user": "/home/drax",
       "user-documents": "/home/drax/Documents",
@@ -1635,7 +1683,7 @@
       "user-public": "/home/drax/Public",
       "user-templates": "/home/drax/Templates",
       "user-desktop": "/home/drax/Desktop",
-      "search-binaries": "/home/drax/bin",
+      "search-binaries": "/usr/local/sbin",
       "search-library-private": "/home/drax/.local/lib",
       "search-library-arch": "/home/drax/.local/lib/x86_64-linux-gnu",
       "search-shared": "/home/drax/.local/share",
@@ -1651,8 +1699,8 @@
           "kb_available": "8112384",
           "percent_used": "0%",
           "total_inodes": "2028096",
-          "inodes_used": "505",
-          "inodes_available": "2027591",
+          "inodes_used": "506",
+          "inodes_available": "2027590",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
@@ -1669,12 +1717,12 @@
         },
         "tmpfs": {
           "kb_size": "1626936",
-          "kb_used": "136",
-          "kb_available": "1626800",
+          "kb_used": "144",
+          "kb_available": "1626792",
           "percent_used": "1%",
           "total_inodes": "2033670",
-          "inodes_used": "52",
-          "inodes_available": "2033618",
+          "inodes_used": "54",
+          "inodes_available": "2033616",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1697,12 +1745,12 @@
         },
         "/dev/sda2": {
           "kb_size": "229122352",
-          "kb_used": "9260976",
-          "kb_available": "208199248",
+          "kb_used": "9696032",
+          "kb_available": "207764192",
           "percent_used": "5%",
           "total_inodes": "14585616",
-          "inodes_used": "445984",
-          "inodes_available": "14139632",
+          "inodes_used": "479592",
+          "inodes_available": "14106024",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1929,8 +1977,8 @@
           "kb_available": "8112384",
           "percent_used": "0%",
           "total_inodes": "2028096",
-          "inodes_used": "505",
-          "inodes_available": "2027591",
+          "inodes_used": "506",
+          "inodes_available": "2027590",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
@@ -1947,12 +1995,12 @@
         },
         "/run": {
           "kb_size": "1626936",
-          "kb_used": "34360",
-          "kb_available": "1592576",
+          "kb_used": "34368",
+          "kb_available": "1592568",
           "percent_used": "3%",
           "total_inodes": "2033670",
-          "inodes_used": "791",
-          "inodes_available": "2032879",
+          "inodes_used": "795",
+          "inodes_available": "2032875",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1969,12 +2017,12 @@
         },
         "/": {
           "kb_size": "229122352",
-          "kb_used": "9260976",
-          "kb_available": "208199248",
+          "kb_used": "9696032",
+          "kb_available": "207764192",
           "percent_used": "5%",
           "total_inodes": "14585616",
-          "inodes_used": "445984",
-          "inodes_available": "14139632",
+          "inodes_used": "479592",
+          "inodes_available": "14106024",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1990,12 +2038,12 @@
         },
         "/dev/shm": {
           "kb_size": "8134680",
-          "kb_used": "199872",
-          "kb_available": "7934808",
+          "kb_used": "203908",
+          "kb_available": "7930772",
           "percent_used": "3%",
           "total_inodes": "2033670",
-          "inodes_used": "198",
-          "inodes_available": "2033472",
+          "inodes_used": "213",
+          "inodes_available": "2033457",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2073,12 +2121,12 @@
         },
         "/run/user/1000": {
           "kb_size": "1626936",
-          "kb_used": "136",
-          "kb_available": "1626800",
+          "kb_used": "144",
+          "kb_available": "1626792",
           "percent_used": "1%",
           "total_inodes": "2033670",
-          "inodes_used": "52",
-          "inodes_available": "2033618",
+          "inodes_used": "54",
+          "inodes_available": "2033616",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2440,8 +2488,8 @@
           "percent_used": "0%",
           "mount": "/dev",
           "total_inodes": "2028096",
-          "inodes_used": "505",
-          "inodes_available": "2027591",
+          "inodes_used": "506",
+          "inodes_available": "2027590",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
@@ -2456,13 +2504,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "1626936",
-          "kb_used": "34360",
-          "kb_available": "1592576",
+          "kb_used": "34368",
+          "kb_available": "1592568",
           "percent_used": "3%",
           "mount": "/run",
           "total_inodes": "2033670",
-          "inodes_used": "791",
-          "inodes_available": "2032879",
+          "inodes_used": "795",
+          "inodes_available": "2032875",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2477,13 +2525,13 @@
         "/dev/sda2,/": {
           "device": "/dev/sda2",
           "kb_size": "229122352",
-          "kb_used": "9260976",
-          "kb_available": "208199248",
+          "kb_used": "9696032",
+          "kb_available": "207764192",
           "percent_used": "5%",
           "mount": "/",
           "total_inodes": "14585616",
-          "inodes_used": "445984",
-          "inodes_available": "14139632",
+          "inodes_used": "479592",
+          "inodes_available": "14106024",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2497,13 +2545,13 @@
         "tmpfs,/dev/shm": {
           "device": "tmpfs",
           "kb_size": "8134680",
-          "kb_used": "199872",
-          "kb_available": "7934808",
+          "kb_used": "203908",
+          "kb_available": "7930772",
           "percent_used": "3%",
           "mount": "/dev/shm",
           "total_inodes": "2033670",
-          "inodes_used": "198",
-          "inodes_available": "2033472",
+          "inodes_used": "213",
+          "inodes_available": "2033457",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2576,13 +2624,13 @@
         "tmpfs,/run/user/1000": {
           "device": "tmpfs",
           "kb_size": "1626936",
-          "kb_used": "136",
-          "kb_available": "1626800",
+          "kb_used": "144",
+          "kb_available": "1626792",
           "percent_used": "1%",
           "mount": "/run/user/1000",
           "total_inodes": "2033670",
-          "inodes_used": "52",
-          "inodes_available": "2033618",
+          "inodes_used": "54",
+          "inodes_available": "2033616",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2924,8 +2972,8 @@
           "kb_available": "8112384",
           "percent_used": "0%",
           "total_inodes": "2028096",
-          "inodes_used": "505",
-          "inodes_available": "2027591",
+          "inodes_used": "506",
+          "inodes_available": "2027590",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
@@ -2942,12 +2990,12 @@
         },
         "tmpfs": {
           "kb_size": "1626936",
-          "kb_used": "136",
-          "kb_available": "1626800",
+          "kb_used": "144",
+          "kb_available": "1626792",
           "percent_used": "1%",
           "total_inodes": "2033670",
-          "inodes_used": "52",
-          "inodes_available": "2033618",
+          "inodes_used": "54",
+          "inodes_available": "2033616",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2970,12 +3018,12 @@
         },
         "/dev/sda2": {
           "kb_size": "229122352",
-          "kb_used": "9260976",
-          "kb_available": "208199248",
+          "kb_used": "9696032",
+          "kb_available": "207764192",
           "percent_used": "5%",
           "total_inodes": "14585616",
-          "inodes_used": "445984",
-          "inodes_available": "14139632",
+          "inodes_used": "479592",
+          "inodes_available": "14106024",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3202,8 +3250,8 @@
           "kb_available": "8112384",
           "percent_used": "0%",
           "total_inodes": "2028096",
-          "inodes_used": "505",
-          "inodes_available": "2027591",
+          "inodes_used": "506",
+          "inodes_available": "2027590",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
@@ -3220,12 +3268,12 @@
         },
         "/run": {
           "kb_size": "1626936",
-          "kb_used": "34360",
-          "kb_available": "1592576",
+          "kb_used": "34368",
+          "kb_available": "1592568",
           "percent_used": "3%",
           "total_inodes": "2033670",
-          "inodes_used": "791",
-          "inodes_available": "2032879",
+          "inodes_used": "795",
+          "inodes_available": "2032875",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3242,12 +3290,12 @@
         },
         "/": {
           "kb_size": "229122352",
-          "kb_used": "9260976",
-          "kb_available": "208199248",
+          "kb_used": "9696032",
+          "kb_available": "207764192",
           "percent_used": "5%",
           "total_inodes": "14585616",
-          "inodes_used": "445984",
-          "inodes_available": "14139632",
+          "inodes_used": "479592",
+          "inodes_available": "14106024",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3263,12 +3311,12 @@
         },
         "/dev/shm": {
           "kb_size": "8134680",
-          "kb_used": "199872",
-          "kb_available": "7934808",
+          "kb_used": "203908",
+          "kb_available": "7930772",
           "percent_used": "3%",
           "total_inodes": "2033670",
-          "inodes_used": "198",
-          "inodes_available": "2033472",
+          "inodes_used": "213",
+          "inodes_available": "2033457",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3346,12 +3394,12 @@
         },
         "/run/user/1000": {
           "kb_size": "1626936",
-          "kb_used": "136",
-          "kb_available": "1626800",
+          "kb_used": "144",
+          "kb_available": "1626792",
           "percent_used": "1%",
           "total_inodes": "2033670",
-          "inodes_used": "52",
-          "inodes_available": "2033618",
+          "inodes_used": "54",
+          "inodes_available": "2033616",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3713,8 +3761,8 @@
           "percent_used": "0%",
           "mount": "/dev",
           "total_inodes": "2028096",
-          "inodes_used": "505",
-          "inodes_available": "2027591",
+          "inodes_used": "506",
+          "inodes_available": "2027590",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
@@ -3729,13 +3777,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "1626936",
-          "kb_used": "34360",
-          "kb_available": "1592576",
+          "kb_used": "34368",
+          "kb_available": "1592568",
           "percent_used": "3%",
           "mount": "/run",
           "total_inodes": "2033670",
-          "inodes_used": "791",
-          "inodes_available": "2032879",
+          "inodes_used": "795",
+          "inodes_available": "2032875",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3750,13 +3798,13 @@
         "/dev/sda2,/": {
           "device": "/dev/sda2",
           "kb_size": "229122352",
-          "kb_used": "9260976",
-          "kb_available": "208199248",
+          "kb_used": "9696032",
+          "kb_available": "207764192",
           "percent_used": "5%",
           "mount": "/",
           "total_inodes": "14585616",
-          "inodes_used": "445984",
-          "inodes_available": "14139632",
+          "inodes_used": "479592",
+          "inodes_available": "14106024",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3770,13 +3818,13 @@
         "tmpfs,/dev/shm": {
           "device": "tmpfs",
           "kb_size": "8134680",
-          "kb_used": "199872",
-          "kb_available": "7934808",
+          "kb_used": "203908",
+          "kb_available": "7930772",
           "percent_used": "3%",
           "mount": "/dev/shm",
           "total_inodes": "2033670",
-          "inodes_used": "198",
-          "inodes_available": "2033472",
+          "inodes_used": "213",
+          "inodes_available": "2033457",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3849,13 +3897,13 @@
         "tmpfs,/run/user/1000": {
           "device": "tmpfs",
           "kb_size": "1626936",
-          "kb_used": "136",
-          "kb_available": "1626800",
+          "kb_used": "144",
+          "kb_available": "1626792",
           "percent_used": "1%",
           "mount": "/run/user/1000",
           "total_inodes": "2033670",
-          "inodes_used": "52",
-          "inodes_available": "2033618",
+          "inodes_used": "54",
+          "inodes_available": "2033616",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4190,7 +4238,255 @@
       }
     },
     "dmi": {
-      "dmidecode_version": "3.0"
+      "dmidecode_version": "3.0",
+      "table_location": "0x886DA000",
+      "bios": {
+        "all_records": [
+          {
+            "record_id": "0x0000",
+            "size": "0",
+            "application_identifier": "BIOS Information",
+            "Vendor": "LENOVO",
+            "Version": "2SCN21WW(V2.01)",
+            "Release Date": "12/20/2016",
+            "Address": "0xE0000",
+            "Runtime Size": "128 kB",
+            "ROM Size": "6144 kB",
+            "Characteristics": {
+              "PCI is supported": null,
+              "BIOS is upgradeable": null,
+              "BIOS shadowing is allowed": null,
+              "Boot from CD is supported": null,
+              "Selectable boot is supported": null,
+              "EDD is supported": null,
+              "Japanese floppy for NEC 9800 1.2 MB is supported (int 13h)": null,
+              "Japanese floppy for Toshiba 1.2 MB is supported (int 13h)": null,
+              "5.25\"/360 kB floppy services are supported (int 13h)": null,
+              "5.25\"/1.2 MB floppy services are supported (int 13h)": null,
+              "3.5\"/720 kB floppy services are supported (int 13h)": null,
+              "3.5\"/2.88 MB floppy services are supported (int 13h)": null,
+              "8042 keyboard services are supported (int 9h)": null,
+              "CGA/mono video services are supported (int 10h)": null,
+              "ACPI is supported": null,
+              "USB legacy is supported": null,
+              "BIOS boot specification is supported": null,
+              "Targeted content distribution is supported": null,
+              "UEFI is supported": null
+            },
+            "BIOS Revision": "2.21",
+            "Firmware Revision": "2.21"
+          }
+        ],
+        "vendor": "LENOVO",
+        "version": "2SCN21WW(V2.01)",
+        "release_date": "12/20/2016",
+        "address": "0xE0000",
+        "runtime_size": "128 kB",
+        "rom_size": "6144 kB",
+        "bios_revision": "2.21",
+        "firmware_revision": "2.21"
+      },
+      "system": {
+        "all_records": [
+          {
+            "record_id": "0x0001",
+            "size": "1",
+            "application_identifier": "System Information",
+            "Manufacturer": "LENOVO",
+            "Product Name": "80VE",
+            "Version": "Lenovo ideapad FLEX 4-1580",
+            "Serial Number": "MP18LQTK",
+            "UUID": "E7BB002B-03D0-11E7-B753-FC45968AC7B0",
+            "Wake-up Type": "Power Switch",
+            "SKU Number": "LENOVO_MT_80VE_BU_idea_FM_Lenovo ideapad FLEX 4-1580",
+            "Family": "IDEAPAD"
+          }
+        ],
+        "manufacturer": "LENOVO",
+        "product_name": "80VE",
+        "version": "Lenovo ideapad FLEX 4-1580",
+        "serial_number": "MP18LQTK",
+        "uuid": "E7BB002B-03D0-11E7-B753-FC45968AC7B0",
+        "wake_up_type": "Power Switch",
+        "sku_number": "LENOVO_MT_80VE_BU_idea_FM_Lenovo ideapad FLEX 4-1580",
+        "family": "IDEAPAD"
+      },
+      "base_board": {
+        "all_records": [
+          {
+            "record_id": "0x0002",
+            "size": "2",
+            "application_identifier": "Base Board Information",
+            "Manufacturer": "LENOVO",
+            "Product Name": "Lenovo ideapad FLEX 4-1580",
+            "Version": "SDK0J40709 WIN",
+            "Serial Number": "MP18LQTK",
+            "Asset Tag": "NO Asset Tag",
+            "Features": {
+              "Board is a hosting board": null,
+              "Board is replaceable": null
+            },
+            "Location In Chassis": "Type2 - Board Chassis Location",
+            "Chassis Handle": "0x0003",
+            "Type": "Motherboard",
+            "Contained Object Handles": "0"
+          }
+        ],
+        "manufacturer": "LENOVO",
+        "product_name": "Lenovo ideapad FLEX 4-1580",
+        "version": "SDK0J40709 WIN",
+        "serial_number": "MP18LQTK",
+        "asset_tag": "NO Asset Tag",
+        "location_in_chassis": "Type2 - Board Chassis Location",
+        "chassis_handle": "0x0003",
+        "type": "Motherboard",
+        "contained_object_handles": "0"
+      },
+      "chassis": {
+        "all_records": [
+          {
+            "record_id": "0x0003",
+            "size": "3",
+            "application_identifier": "Chassis Information",
+            "Manufacturer": "LENOVO",
+            "Type": "Convertible",
+            "Lock": "Not Present",
+            "Version": "Lenovo ideapad FLEX 4-1580",
+            "Serial Number": "MP18LQTK",
+            "Asset Tag": "NO Asset Tag",
+            "Boot-up State": "Safe",
+            "Power Supply State": "Safe",
+            "Thermal State": "Safe",
+            "Security Status": "None",
+            "OEM Information": "0x00000000",
+            "Height": "Unspecified",
+            "Number Of Power Cords": "1",
+            "Contained Elements": "0",
+            "SKU Number": "SKU Number"
+          }
+        ],
+        "manufacturer": "LENOVO",
+        "type": "Convertible",
+        "lock": "Not Present",
+        "version": "Lenovo ideapad FLEX 4-1580",
+        "serial_number": "MP18LQTK",
+        "asset_tag": "NO Asset Tag",
+        "boot_up_state": "Safe",
+        "power_supply_state": "Safe",
+        "thermal_state": "Safe",
+        "security_status": "None",
+        "oem_information": "0x00000000",
+        "height": "Unspecified",
+        "number_of_power_cords": "1",
+        "contained_elements": "0",
+        "sku_number": "SKU Number"
+      },
+      "processor": {
+        "all_records": [
+          {
+            "record_id": "0x0004",
+            "size": "4",
+            "application_identifier": "Processor Information",
+            "Socket Designation": "U3E1",
+            "Type": "Central Processor",
+            "Family": "Core i7",
+            "Manufacturer": "Intel(R) Corporation",
+            "ID": "E9 06 08 00 FF FB EB BF",
+            "Signature": "Type 0, Family 6, Model 142, Stepping 9",
+            "Flags": {
+              "FPU (Floating-point unit on-chip)": null,
+              "VME (Virtual mode extension)": null,
+              "DE (Debugging extension)": null,
+              "PSE (Page size extension)": null,
+              "TSC (Time stamp counter)": null,
+              "MSR (Model specific registers)": null,
+              "PAE (Physical address extension)": null,
+              "MCE (Machine check exception)": null,
+              "CX8 (CMPXCHG8 instruction supported)": null,
+              "APIC (On-chip APIC hardware supported)": null,
+              "SEP (Fast system call)": null,
+              "MTRR (Memory type range registers)": null,
+              "PGE (Page global enable)": null,
+              "MCA (Machine check architecture)": null,
+              "CMOV (Conditional move instruction supported)": null,
+              "PAT (Page attribute table)": null,
+              "PSE-36 (36-bit page size extension)": null,
+              "CLFSH (CLFLUSH instruction supported)": null,
+              "DS (Debug store)": null,
+              "ACPI (ACPI supported)": null,
+              "MMX (MMX technology supported)": null,
+              "FXSR (FXSAVE and FXSTOR instructions supported)": null,
+              "SSE (Streaming SIMD extensions)": null,
+              "SSE2 (Streaming SIMD extensions 2)": null,
+              "SS (Self-snoop)": null,
+              "HTT (Multi-threading)": null,
+              "TM (Thermal monitor supported)": null,
+              "PBE (Pending break enabled)": null
+            },
+            "Version": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+            "Voltage": "0.9 V",
+            "External Clock": "100 MHz",
+            "Max Speed": "8300 MHz",
+            "Current Speed": "2800 MHz",
+            "Status": "Populated, Enabled",
+            "Upgrade": "Other",
+            "L1 Cache Handle": "0x0005",
+            "L2 Cache Handle": "0x0006",
+            "L3 Cache Handle": "0x0007",
+            "Serial Number": "To Be Filled By O.E.M.",
+            "Asset Tag": "To Be Filled By O.E.M.",
+            "Part Number": "To Be Filled By O.E.M.",
+            "Core Count": "2",
+            "Core Enabled": "2",
+            "Thread Count": "4",
+            "Characteristics": {
+              "64-bit capable": null,
+              "Multi-Core": null,
+              "Hardware Thread": null,
+              "Execute Protection": null,
+              "Enhanced Virtualization": null,
+              "Power/Performance Control": null
+            }
+          }
+        ],
+        "socket_designation": "U3E1",
+        "type": "Central Processor",
+        "family": "Core i7",
+        "manufacturer": "Intel(R) Corporation",
+        "id": "E9 06 08 00 FF FB EB BF",
+        "signature": "Type 0, Family 6, Model 142, Stepping 9",
+        "version": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "voltage": "0.9 V",
+        "external_clock": "100 MHz",
+        "max_speed": "8300 MHz",
+        "current_speed": "2800 MHz",
+        "status": "Populated, Enabled",
+        "upgrade": "Other",
+        "l1_cache_handle": "0x0005",
+        "l2_cache_handle": "0x0006",
+        "l3_cache_handle": "0x0007",
+        "serial_number": "To Be Filled By O.E.M.",
+        "asset_tag": "To Be Filled By O.E.M.",
+        "part_number": "To Be Filled By O.E.M.",
+        "core_count": "2",
+        "core_enabled": "2",
+        "thread_count": "4"
+      },
+      "oem_strings": {
+        "all_records": [
+          {
+            "record_id": "0x001E",
+            "size": "11",
+            "application_identifier": "OEM Strings",
+            "String 1": "OemString1",
+            "String 2": "OemString2",
+            "String 3": "OemString3"
+          }
+        ],
+        "string_1": "OemString1",
+        "string_2": "OemString2",
+        "string_3": "OemString3"
+      }
     },
     "chef_packages": {
       "chef": {
@@ -4202,7 +4498,7 @@
         "ohai_root": "/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.2.0/lib/ohai"
       }
     },
-    "ohai_time": 1509876010.8476808,
+    "ohai_time": 1509880609.3738291,
     "etc": {
       "passwd": {
         "root": {
@@ -4929,7 +5225,7 @@
         }
       }
     },
-    "current_user": "drax",
+    "current_user": "root",
     "cloud_v2": null,
     "cloud": null,
     "packages": {
@@ -5206,7 +5502,7 @@
         "arch": "amd64"
       },
       "chromium-codecs-ffmpeg-extra": {
-        "version": "62.0.3202.62-0ubuntu0.16.04.1308",
+        "version": "62.0.3202.75-0ubuntu0.16.04.1313",
         "arch": "amd64"
       },
       "colord": {
@@ -9230,11 +9526,11 @@
         "arch": "amd64"
       },
       "libpoppler-glib8": {
-        "version": "0.41.0-0ubuntu1.4",
+        "version": "0.41.0-0ubuntu1.5",
         "arch": "amd64"
       },
       "libpoppler58": {
-        "version": "0.41.0-0ubuntu1.4",
+        "version": "0.41.0-0ubuntu1.5",
         "arch": "amd64"
       },
       "libpopt0": {
@@ -10794,7 +11090,7 @@
         "arch": "all"
       },
       "linux-generic-hwe-16.04": {
-        "version": "4.10.0.37.39",
+        "version": "4.10.0.38.40",
         "arch": "amd64"
       },
       "linux-headers-4.10.0-33": {
@@ -10821,6 +11117,14 @@
         "version": "4.10.0-37.41~16.04.1",
         "arch": "amd64"
       },
+      "linux-headers-4.10.0-38": {
+        "version": "4.10.0-38.42~16.04.1",
+        "arch": "all"
+      },
+      "linux-headers-4.10.0-38-generic": {
+        "version": "4.10.0-38.42~16.04.1",
+        "arch": "amd64"
+      },
       "linux-headers-4.8.0-36": {
         "version": "4.8.0-36.36~16.04.1",
         "arch": "all"
@@ -10830,7 +11134,7 @@
         "arch": "amd64"
       },
       "linux-headers-generic-hwe-16.04": {
-        "version": "4.10.0.37.39",
+        "version": "4.10.0.38.40",
         "arch": "amd64"
       },
       "linux-image-4.10.0-33-generic": {
@@ -10843,6 +11147,10 @@
       },
       "linux-image-4.10.0-37-generic": {
         "version": "4.10.0-37.41~16.04.1",
+        "arch": "amd64"
+      },
+      "linux-image-4.10.0-38-generic": {
+        "version": "4.10.0-38.42~16.04.1",
         "arch": "amd64"
       },
       "linux-image-4.8.0-36-generic": {
@@ -10861,20 +11169,24 @@
         "version": "4.10.0-37.41~16.04.1",
         "arch": "amd64"
       },
+      "linux-image-extra-4.10.0-38-generic": {
+        "version": "4.10.0-38.42~16.04.1",
+        "arch": "amd64"
+      },
       "linux-image-extra-4.8.0-36-generic": {
         "version": "4.8.0-36.36~16.04.1",
         "arch": "amd64"
       },
       "linux-image-generic-hwe-16.04": {
-        "version": "4.10.0.37.39",
+        "version": "4.10.0.38.40",
         "arch": "amd64"
       },
       "linux-libc-dev": {
-        "version": "4.4.0-97.120",
+        "version": "4.4.0-98.121",
         "arch": "amd64"
       },
       "linux-signed-generic-hwe-16.04": {
-        "version": "4.10.0.37.39",
+        "version": "4.10.0.38.40",
         "arch": "amd64"
       },
       "linux-signed-image-4.10.0-33-generic": {
@@ -10889,8 +11201,12 @@
         "version": "4.10.0-37.41~16.04.1",
         "arch": "amd64"
       },
+      "linux-signed-image-4.10.0-38-generic": {
+        "version": "4.10.0-38.42~16.04.1",
+        "arch": "amd64"
+      },
       "linux-signed-image-generic-hwe-16.04": {
-        "version": "4.10.0.37.39",
+        "version": "4.10.0.38.40",
         "arch": "amd64"
       },
       "linux-sound-base": {
@@ -11294,7 +11610,7 @@
         "arch": "all"
       },
       "poppler-utils": {
-        "version": "0.41.0-0ubuntu1.4",
+        "version": "0.41.0-0ubuntu1.5",
         "arch": "amd64"
       },
       "popularity-contest": {
@@ -12658,7 +12974,7 @@
         "arch": "amd64"
       },
       "wget": {
-        "version": "1.17.1-1ubuntu1.2",
+        "version": "1.17.1-1ubuntu1.3",
         "arch": "amd64"
       },
       "whiptail": {
@@ -12934,11 +13250,12 @@
         "arch": "amd64"
       }
     },
-    "uptime_seconds": 709118,
-    "uptime": "8 days 04 hours 58 minutes 38 seconds",
-    "idletime_seconds": 606688,
-    "idletime": "7 days 00 hours 31 minutes 28 seconds",
+    "uptime_seconds": 713717,
+    "uptime": "8 days 06 hours 15 minutes 17 seconds",
+    "idletime_seconds": 622805,
+    "idletime": "7 days 05 hours 00 minutes 05 seconds",
     "init_package": "systemd",
+    "shard_seed": 157918409,
     "root_group": "root",
     "sysconf": {
       "LINK_MAX": 65000,
@@ -13004,7 +13321,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 1127042,
+      "_AVPHYS_PAGES": 977988,
       "_NPROCESSORS_CONF": 4,
       "_NPROCESSORS_ONLN": 4,
       "_PHYS_PAGES": 4067340,
