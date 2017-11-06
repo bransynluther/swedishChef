@@ -5,9 +5,8 @@ end
 
 package 'apache2'
 
-
-service'apache2' do
+service 'apache2' do
   supports status: true
-  action[:enable,:start]
+  action[:enable, :start]
 end
 
